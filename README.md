@@ -1,52 +1,32 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
+> Lending money is always risky. In this project I have tried to find patterns for defaulters. This analysis will help agencies to validate users before recommending for loan.
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Lending Club Case Study
+* Python3, pandas, matplotlib, numpy & Excel 
+* Maximum defaulters are people who took loan for 36 months tenure for debt_clearance as reason
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The Data set (loan.csv) consist of 111 columns and 39717 rows
+- From the given data set patterns are identified for defaulters
+- I am trying to help Loan approval agencies to validate applicants and reduce credit risk for lending companies
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- I can conclude, if a applicant is from [CA, CO, SC, KY] regions with annual income in [22500 ~ 36000] bracket, applying for amount [4100 ~ 5500] for duration of 36 months staying in rented appartment should be DENIED loan to reduce risk of credit loss.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas==1.3.4
+- matplotlib
+- numpy
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by an excerise for finding reasons of credit loss
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Tushar Sood] - feel free to contact me!
